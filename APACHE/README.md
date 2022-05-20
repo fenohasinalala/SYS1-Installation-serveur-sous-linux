@@ -29,7 +29,7 @@ Voir les détails sur les configurations possibles sur les liens ci-après [apac
 #### 2.2.1  Les fichiers de configuration du serveur 
 La configuration du serveur apache étant complexe, elle est séparée en plusieurs dossiers, ils se trouvent dans "/etc/apache2/".
 
-![liste configuration](D:/Etudes/HEI/SYS1/examen\1/lova/apache2/img/apache2_config.png)
+![liste configuration](https://github.com/fenohasinalala/SYS1-Installation-serveur-sous-linux/blob/main/APACHE/img/apache2_config.png)
 * **apache2.conf** : Fichier de configuration principale
 * **mods-enabled** : Dossier qui contient les différents fichiers de configuration des différents modes
 * **conf-enabled** : Dossier qui contient les fichiers de configuration supplémentaire
@@ -54,7 +54,7 @@ Pour modifier la configuration du virtualhost par défaut:
 nano /etc/apache2/sites-enabled/000-default.conf
 ```
 
-![configuration virtualhost par défaut](D:/Etudes/HEI/SYS1/examen\1/lova/apache2/img/apache2_config_virtualhost.png)
+![configuration virtualhost par défaut](https://github.com/fenohasinalala/SYS1-Installation-serveur-sous-linux/blob/main/APACHE/img/apache2_config_virtualhost.png)
 
 #### *2.2.3.1. Description des paramètres du virtualhost*
 Voici les paramètres de base de la configuration d'un virtualhost:
@@ -92,7 +92,7 @@ DocumentRoot : /home/lova/www/
 #### *b) Utilisation de lien symbolique :*
 cette méthode est possible si et seulement si l'option FollowSymLinks est active sur le dossier accessible à apache, par exemple le dossier /var/www/ (voir image ci-dessous)
 
-![configuration lien](D:/Etudes/HEI/SYS1/examen\1/lova/apache2/img/apache2_config_lien.png)
+![configuration lien](https://github.com/fenohasinalala/SYS1-Installation-serveur-sous-linux/blob/main/APACHE/img/apache2_config_lien.png)
 
 Pour ajouter un lien symbolique :
 ```
@@ -170,4 +170,4 @@ ip addr
 
 À l'aide d'un navigateur, sur la barre d’adresse, il faut saisir l'adresse IP et le port du serveur (80 par défaut) soit le nom du domaine.
 Exemple:
-![navigateur](D:/Etudes/HEI/SYS1/examen\1/lova/apache2/img/apache2_navigateur.png)
+![navigateur](https://github.com/fenohasinalala/SYS1-Installation-serveur-sous-linux/blob/main/APACHE/img/apache2_navigateur.png)

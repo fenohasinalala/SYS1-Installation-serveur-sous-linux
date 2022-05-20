@@ -170,4 +170,4 @@ ip addr
 
 À l'aide d'un navigateur, sur la barre d’adresse, il faut saisir l'adresse IP et le port du serveur (80 par défaut) soit le nom du domaine.
 Exemple:
-![navigateur](https://github.com/fenohasinalala/SYS1-Installation-serveur-sous-linux/blob/main/APACHE/img/apache2_navigateur.png)
+![navigateur](https://github.com/fenohasinalala/SYS1-Installation-serveur-sous-linux/blob/main/APACHE/img/apache2_navigateur.PNG)

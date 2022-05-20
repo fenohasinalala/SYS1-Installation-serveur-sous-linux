@@ -81,3 +81,6 @@ Après avoir téléchargé le logiciel, pour accéder au serveur, il faut connai
 ip addr #ou ip a
 ```
 Ainsi que l’identifiant et le mot de passe d’un compte utilisateur (notamment que nous avons créé précédemment) ; soit, on peut se connecter anonymement si le serveur le permet.
+
+
+[Retour à l'accueil](https://github.com/fenohasinalala/SYS1-Installation-serveur-sous-linux)
